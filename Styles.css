@@ -1,0 +1,160 @@
+:root {
+  --clr-Bright-Orange-300: hsl(31, 77%, 52%);
+  --clr-Dark-Cyan-400: hsl(184, 100%, 22%);
+  --clr-Very-Dark-Cyan-700: hsl(179, 100%, 13%);
+  --ff-Primary: 'Big Shoulders Display', cursive;
+  --ff-accent: 'Lexend Deca', sans-serif;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  
+}
+.container{
+ padding: 30%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  font-size: 15px;
+  text-align: center;
+  
+}
+.card1 {
+  background-color: var(--clr-Bright-Orange-300);
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+  padding: 20px;
+
+
+
+}
+.card2 {
+  background-color: var(--clr-Dark-Cyan-400);
+  color: #ffffff;
+  padding: 20px;
+}
+.card3{
+  background-color: var(--clr-Very-Dark-Cyan-700);
+  color: #ffffff;
+  border-radius: 0 0 10px 10px;
+  padding: 20px;
+
+}
+h3{
+  font-family: 'Big Shoulders Display', cursive;
+  color: aliceblue;
+ margin-bottom: 20px;
+  font-size: 25px;
+}
+p{
+color: #ffffff; 
+ margin-bottom: 30px;
+ line-height: 1.6;
+}
+.icons {
+  margin-top: 30px;
+  
+
+}
+
+.button-first {
+  padding: 10px 20px;
+  -webkit-border-radius: 33;
+  -moz-border-radius: 33;
+  border-radius: 33px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--clr-Bright-Orange-300);
+  font-size: 17px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  transition:all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.button-first:hover {
+  background-color: transparent;
+  color: #ffffff;
+}
+.button-second {
+  padding: 10px 20px;
+  -webkit-border-radius: 33;
+  -moz-border-radius: 33;
+  border-radius: 33px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--clr-Dark-Cyan-400);
+  font-size: 17px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  transition:all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.button-second:hover {
+  background-color: transparent;
+  color: #ffffff;
+ 
+}
+.button-third {
+  padding: 10px 20px;
+  -webkit-border-radius: 33;
+  -moz-border-radius: 33;
+  border-radius: 33px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--clr-Very-Dark-Cyan-700);
+  font-size: 17px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  transition:all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+
+.button-third:hover {
+  background-color: transparent;
+  color: #ffffff;
+ 
+}
+@media (min-width:992px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+    max-width: 900x;
+    margin: auto;
+  }
+  .card1 {
+    border-radius: 10px 0 0 10px;
+  }
+  .card3 {
+    border-radius: 0 10px 10px 0; ;
+  }
+}
+
+@media (min-width: 1100) {
+  .container {
+    max-width: 1100px;
+  }
+}
